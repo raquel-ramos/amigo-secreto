@@ -30,7 +30,7 @@ function adicionarNomesLista(){
 //sortear os nomes;
 function sortear(){
     if(nomesLista.length < 4){
-        alert('Insira pelo menos 6 participantes');
+        alert('Insira pelo menos 4 participantes');
         return;
     }
     const nomeSorteado = embaralha(nomesLista);
